@@ -11,7 +11,7 @@ LABEL maintainer "Keng Susumpow"
        org.label-schema.description="A Docker container for latest version of Moodle" \
        org.label-schema.url="https://www.opendream.co.th/" \
        org.label-schema.vcs-ref=$VCS_REF \
-       org.label-schema.vcs-url="https://github.com/opendream/wordpress-fpm" \
+       org.label-schema.vcs-url="https://github.com/opendream/moodle" \
        org.label-schema.vendor="Opendream Co., Ltd." \
        org.label-schema.version=$VERSION \
        org.label-schema.schema-version="1.0"
