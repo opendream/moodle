@@ -1,3 +1,7 @@
+[![](https://images.microbadger.com/badges/image/opendream/moodle.svg)](https://microbadger.com/images/opendream/moodle "Get your own image badge on microbadger.com")
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![Docker Build Statu](https://img.shields.io/docker/build/opendream/moodle.svg)]()
+
 # Moodle
 A lightweight Docker container for Moodle. 🙏
 
