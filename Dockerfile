@@ -22,7 +22,9 @@ ENV MD_DOWNLOAD_URL https://download.moodle.org/stable33/moodle-latest-33.tgz
 
 RUN apk add --no-cache --virtual .build-deps \
     autoconf build-base gcc libc-dev libtool make \
-    && docker-php-ext-install mysqli opcache \
+    libjpeg-turbo-dev libpng-dev libxml2-dev icu-dev \
+    && docker-php-ext-configure gd --with-png-dir=/usr --with-jpeg-dir=/usr \
+    && docker-php-ext-install gd zip mysqli opcache xmlrpc soap intl \
     && find /usr/local/lib/php/extensions -name '*.a' -delete \
     && find /usr/local/lib/php/extensions -name '*.so' -exec strip --strip-all '{}' \; \
     && runDeps="$( \
