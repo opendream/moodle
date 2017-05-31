@@ -17,7 +17,7 @@ LABEL maintainer "Keng Susumpow"
        org.label-schema.schema-version="1.0"
 
 ENV MD_ROOT /usr/src/moodle
-ENV MD_SHA256 7616b55409e2d353a084c2a32316261e94236defd02895b56650d630453d38ef 
+ENV MD_SHA256 096039fe0d9ac5a0b01044eac0fd56dbc3fc5f35a7ca36b3fe183262bfe9c4f0 
 ENV MD_DOWNLOAD_URL https://download.moodle.org/stable33/moodle-latest-33.tgz
 
 RUN apk add --no-cache --virtual .build-deps \
